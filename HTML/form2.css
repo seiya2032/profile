@@ -1,0 +1,19 @@
+ h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+.underline {
+    border-bottom: 4px solid rgb(0, 4, 255);
+  }
+.center {
+    text-align: center;
+  }
+body {
+    background-color: rgb(172, 218, 215);
+  }
+.form-container {
+    background-color: rgb(255, 255, 255);
+    width: 50%; /* 幅をページ幅の50%に指定 */  
+    margin: 0 auto;
+  }
+

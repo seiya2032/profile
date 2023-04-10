@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>アンケート</title>
+  </head>
+<link rel="stylesheet" href="form2.css">
+<body>
+    <!---->
+    <div class="center">
+        <h1><p class="underline">アンケート</p></h1>        
+    </div>
+  
+  <div class="form-container">
+  <div class="center">
+  <div style="width: 500px; text-align: left;">
+        <!--<p>左寄せされた文字列</p>-->
+    
+    
+    <p>AxiZの研修をご利用いただき、誠にありがとうございました。</p>
+    <P>以下の内容の記入乃び送信をして頂けると幸いです。</P>
+    <P>会社名 <span style="color: red;">必須</span>
+        <br>
+        <input type="text" name="name" placeholder="例)株式会社テクノコア">
+    </P>
+    <P>お名前 <span style="color: red;">必須</span>
+        <br>
+        <input type="text" name="name" placeholder="例)子久野 国亜">
+    </P>
+    <P>メールアドレス
+        <br>
+        <input type="text" name="name" placeholder="例)example@axiz.co.jp">
+    </P>
+    <P>年齢
+        <br>
+        <input type="text" name="name" value="23">
+    </P>
+    <p>受験コース
+        <br>
+        <input type="radio" name="sei" value="male" checked>Java
+        <input type="radio" name="sei" value="female">インフラ
+    </p>
+    <P>会場
+        <br>
+        <select name="会場">
+            <option value="soccer" selected >日本橋A教室</option>
+            <option value="golf">日本橋B教室</option>
+            <option value="golf">日本橋C教室</option>
+    </P>
+        </select>
+    <P>詳しく学びたい内容(複数回答可)</P>
+        <br>
+        <input type="checkbox" name="test" value="check" checked>ビジネスマナー<br>
+        <input type="checkbox" name="test" value="check" checked>HTML/CSS<br>
+        <input type="checkbox" name="test" value="check" checked>JavaScript<br>
+        <input type="checkbox" name="test" value="check" checked>Java<br>
+        <input type="checkbox" name="test" value="check" checked>データベース<br>
+        <input type="checkbox" name="test" value="check" checked>Linux<br>   
+    </P>
+    <P>ご意見
+    <br>
+    <textarea name="free" rows="2" cols="20"></textarea>
+    </P>
+    <button type="submit">送信</button>
+</div>
+</div>
+</div>
+</body>

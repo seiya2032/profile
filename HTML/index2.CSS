@@ -1,0 +1,66 @@
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  left: 50%; /* 左端を中央に */
+  transform: translateX(-50%); /* 中央寄せ */
+  text-align: left; /* 左寄せ */
+}
+nav {
+    background-color: #777777af; /* ナビゲーションバーの背景色 */
+    padding: 10px; /* ナビゲーションバーの内側の余白 */
+  }
+  
+  ul {
+    list-style: none; /* リストのマーカーを削除 */
+    margin: 0; /* リストの外側の余白を削除 */
+    padding: 0; /* リストの内側の余白を削除 */
+    display: flex; /* リストを横並びにする */
+  }
+  
+  li {
+    margin-right: 10px; /* リスト項目の間隔 */
+  }
+  
+  a {
+   /* display: block;  リンクをブロック要素にする */
+    /*color: #ffffff;  リンクの文字色 */
+   /* text-decoration: none;  下線を削除 */
+    padding: 10px; /* リンクの内側の余白 */
+  }
+  body {
+    background-image: url('image/li-bg-hover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .right {
+    flex: 1;
+    background-image: url("image/li-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .right {
+    flex: 1;
+  }
+  #section1, #section2, #section3 {
+    border-top: 1px solid black;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 2%;
+  }
+  #section3 {
+    margin-right: 0;
+  }
