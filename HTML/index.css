@@ -1,0 +1,9 @@
+ body {
+        background-image: url("image/bg_Argyle.jpg");
+        background-size: cover; /* 画面全体に表示 */
+        background-repeat: no-repeat; /* 繰り返し表示しない */
+        background-position: center; /* 画像を中央に配置 */
+    }  
+ div {
+        text-align: center;
+      }
